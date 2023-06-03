@@ -7,5 +7,14 @@
 <div class="bg-light text-dark p-3 rounded mb-3">
 	<h5>{post.title}</h5>
 	<div class="small mb-2">{post.created}</div>
-	<iframe class="w-100 rounded" src={post.url} title={post.title} />
+	<div class="embed-responsive embed-responsive-21by9">
+		<iframe
+			class="w-100 h-100 rounded"
+			src={post.url.replace('youtu.be', 'www.youtube.com/embed/')}
+			title={post.title}
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			allowfullscreen
+		/>
+	</div>
 </div>
