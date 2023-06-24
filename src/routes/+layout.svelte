@@ -2,7 +2,7 @@
 	import Nav from '$lib/components/Nav.svelte';
 	let routes = [
 		{ text: 'Me', url: 'https://me.gorbulevsv.ru/' },
-		{ text: 'LandingPage', url: 'http://landingpage1.gorbulevsv.ru/' }
+		{ text: 'LandingPage', url: 'http://landing1.gorbulevsv.ru/' }
 	];
 </script>
 
