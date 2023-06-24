@@ -20,7 +20,7 @@
 		class="position-fixed bottom-0 w-100 d-flex flex-column align-items-center justify-content-between bg-light bg-opacity-10 gap-1 px-3 py-2">
 		<div class="d-flex align-items-center gap-2">
 			{#each routes as item}
-				<a href="/{item.url}" class="btn btn-sm btn-light bg-light bg-opacity-50 border-0 text-dark">{item.text}</a>
+				<a href={item.url} class="btn btn-sm btn-light bg-light bg-opacity-50 border-0 text-dark">{item.text}</a>
 			{/each}
 		</div>
 	</nav>
@@ -33,7 +33,7 @@
 		</a>
 		<div class="d-flex align-items-center gap-2">
 			{#each routes as item}
-				<a href="/{item.url}" class="btn btn-light bg-light bg-opacity-50 border-0 text-dark">{item.text}</a>
+				<a href={item.url} class="btn btn-light bg-light bg-opacity-50 border-0 text-dark">{item.text}</a>
 			{/each}
 		</div>
 	</nav>
