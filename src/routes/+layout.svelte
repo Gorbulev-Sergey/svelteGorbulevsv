@@ -1,8 +1,9 @@
 <script>
 	import Nav from '$lib/components/Nav.svelte';
 	let routes = [
-		{ text: 'Me', url: 'https://me.gorbulevsv.ru/' },
-		{ text: 'LandingPage1', url: 'http://landingpage.gorbulevsv.ru/1' }
+		{ text: 'Me', url: 'https://me.gorbulevsv.ru' },
+		{ text: 'Качели', url: 'https://kacheli.gorbulevsv.ru' },
+		{ text: 'Беседки', url: 'https://besedki.gorbulevsv.ru' }
 	];
 </script>
 
