@@ -17,5 +17,5 @@
 </script>
 
 {#each Object.entries(posts).sort(([k1, v1], [k2, v2]) => new Date(v2.created) - new Date(v1.created)) as [uid, post], i}
-	<Post {post} />
+	<Post {uid} {post} />
 {/each}
